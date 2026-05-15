@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KutuphaneOtomasyonu</string>,
+    <?xml version="1.0" encoding="utf-8"?>
+        <string name="app_title">Kütüphane Otomasyonu - Kitap Detayları</string>
+        <string name="book_title_1984">1984</string>
+        <string name="book_author_orwell">George Orwell</string>
+        <string name="book_category_dystopia">Distopya</string>
+        <string name="description_title">Kitap Açıklaması</string>
+        <string name="book_description_text">1984, totaliter rejimleri anlatan distopik bir romandır.</string>
+        <string name="button_borrow">Ödünç Ver</string>
+        <string name="button_favorite">Favorilere Ekle</string>
+        <string name="recommendations_title">Şunlara da Göz Atın</string>
+        <string name="rec_book_animal_farm">Hayvan Çiftliği</string>
+        <string name="rec_book_fahrenheit">Fahrenheit 451</string>
+        <string name="rec_book_brave_new_world">Cesur Yeni Dünya</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="18dp"
+    android:background="#F3EEE6">
+
+    <!-- LEFT AREA -->
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- BOOK IMAGE -->
+
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:src="@drawable/book"
+            android:scaleType="fitXY"/>
+
+        <!-- BUTTON 1 -->
+
+        <Button
+            android:id="@+id/btnBorrow"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Ödünç Ver"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#3AA0E6"/>
+
+        <!-- BUTTON 2 -->
+
+        <Button
+            android:id="@+id/btnFav"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Favorilere Ekle"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#39D16D"/>
+
+    </LinearLayout>
+
+    <!-- CENTER -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="25dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1984"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:textColor="#222222"/>
+
+        <!-- AUTHOR -->
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="George Orwell"
+            android:textSize="30sp"
+            android:textColor="#777777"
+            android:layout_marginTop="10dp"/>
+
+        <!-- CATEGORY -->
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distopya"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#2C84D8"
+            android:layout_marginTop="25dp"/>
+
+        <!-- DESC TITLE -->
+
+        <TextView
+            android:id="@+id/descTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap Açıklaması"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#111111"
+            android:layout_marginTop="45dp"/>
+
+        <!-- DESCRIPTION -->
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1984, totaliter rejimleri anlatan distopik bir romandır."
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+    <!-- RIGHT SIDE -->
+
+</LinearLayout>
